@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/DSA/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/DSA/OOPS/OOPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/Pattern Printing/Pattern Printing.iml" filepath="$PROJECT_DIR$/DSA/Pattern Printing/Pattern Printing.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/DSA/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/SlidingWindow/SlidingWindow.iml" filepath="$PROJECT_DIR$/DSA/SlidingWindow/SlidingWindow.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/Strings/Strings.iml" filepath="$PROJECT_DIR$/DSA/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/OOPS/StudentResultCalculator/StudentResultCalculator.iml" filepath="$PROJECT_DIR$/DSA/OOPS/StudentResultCalculator/StudentResultCalculator.iml" />
     </modules>
