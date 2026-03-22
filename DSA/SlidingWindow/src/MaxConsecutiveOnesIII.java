@@ -5,7 +5,7 @@ public class MaxConsecutiveOnesIII {
         int j = 0;
         int k = 2;
         int n = arr.length;
-        int maxLen = 0;
+        int maxLength = 0;
         int zeros = 0;
 
         while(i<n){
@@ -19,11 +19,11 @@ public class MaxConsecutiveOnesIII {
                 j++;
             }
             if(zeros <= k){
-                maxLen = Math.max(maxLen,i-j+1);
+                maxLength = Math.max(maxLength,i-j+1);
             }
             i++;
         }
 
-        System.out.println(maxLen);
+        System.out.println(maxLength);
     }
 }
