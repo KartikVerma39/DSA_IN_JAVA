@@ -8,7 +8,7 @@ public class CountOfNiceSubArrays {
     public static int atMost(int[] nums , int k){
         int i = 0;
         int j = 0;
-        int total = 0;
+        int totall = 0;
         int odds = 0;
         int n = nums.length;
 
@@ -24,10 +24,10 @@ public class CountOfNiceSubArrays {
                 j++;
             }
 
-            total += i - j + 1;
+            totall += i - j + 1;
             i++;
         }
 
-        return total;
+        return totall;
     }
 }
