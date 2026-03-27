@@ -23,28 +23,63 @@
 //    }
 //}
 
+//
+//
+//public class ReverseWordsInAString{
+//    public static void main(String[] args){
+//        String s = "  This is a good   person   ";
+//        s = s.trim();
+//        String word = new StringBuilder(s).reverse().toString();
+//        StringBuilder ans = new StringBuilder();
+//
+//        for(int i = 0 ; i < word.length() ; i++){
+//            StringBuilder temp = new StringBuilder();
+//            while(i < word.length() && word.charAt(i) != ' '){
+//                temp.append(word.charAt(i));
+//                i++;
+//            }
+//
+//            if(temp.length() > 0){
+//                ans.append(temp.reverse());
+//                ans.append(" ");
+//            }
+//        }
+//
+//        System.out.println(ans.toString().trim());
+//    }
+//}
+
+
+
+
+
 
 
 public class ReverseWordsInAString{
     public static void main(String[] args){
-        String s = "  This is a good   person   ";
-        s = s.trim();
-        String word = new StringBuilder(s).reverse().toString();
+        String s = "the    sky is blue  ";
+        String k = new StringBuilder(s).reverse().toString();
         StringBuilder ans = new StringBuilder();
 
-        for(int i = 0 ; i < word.length() ; i++){
+        int n = s.length();
+
+        for(int i = 0 ; i < n ;  i++){
             StringBuilder temp = new StringBuilder();
-            while(i < word.length() && word.charAt(i) != ' '){
-                temp.append(word.charAt(i));
+            while(i < n && k.charAt(i) != ' '){
+                temp.append(k.charAt(i));
                 i++;
             }
-
-            if(temp.length() > 0){
-                ans.append(temp.reverse());
+            if(!temp.isEmpty()){
+                ans.append(temp.reverse().toString());
                 ans.append(" ");
             }
         }
 
         System.out.println(ans.toString().trim());
+
     }
 }
+
+
+
+
