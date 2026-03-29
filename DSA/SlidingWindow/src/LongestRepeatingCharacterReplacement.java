@@ -1,6 +1,6 @@
 public class LongestRepeatingCharacterReplacement {
     public static void main(String[] args){
-        String s = "AABABBA";
+        String s = "AABABBABC";
         int[] freq = new int[26];
         int i = 0;
         int j = 0;
