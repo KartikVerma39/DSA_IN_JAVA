@@ -45,7 +45,7 @@ public class MinimumWindowSubstring {
         }
 
         if(startIndex == -1){
-            System.out.println("");
+            System.out.println(" ");
         }
         else{
             System.out.println(s.substring(startIndex,startIndex + minLen));
