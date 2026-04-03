@@ -1,13 +1,14 @@
 public class CheckIfithBitSetOrNot {
     public static void main(String[] args){
-        int n = 13;
-        int i = 2;
+        int n = 500;
+        int i = 3;
 
-        if((n & (1<<i)) != 0){
-            System.out.println("True");
-        }
-        else{
+        if((n & (1 << i)) == 0){
             System.out.println("False");
         }
+        else{
+            System.out.println("True");
+        }
+
     }
 }
