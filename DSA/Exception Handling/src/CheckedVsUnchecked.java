@@ -1,3 +1,13 @@
+//Q10: Checked vs Unchecked
+//
+//        Write program showing:
+//
+//        One checked exception (IOException)
+//        One unchecked (ArithmeticException)
+//        Explain via code behavior
+
+
+
 import java.io.FileReader;
 import java.io.IOException;
 
