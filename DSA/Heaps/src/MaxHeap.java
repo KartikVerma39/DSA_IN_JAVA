@@ -31,11 +31,10 @@ public class MaxHeap {
     }
 
     public void heapify(int index){
-        int largest = index;
         int size = heap.size();
 
         while(index < size) {
-
+            int largest = index;
             int leftChildIdx = 2 * (index) + 1;
             int rightChildIdx = 2 * (index) + 2;
 
